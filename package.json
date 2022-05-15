@@ -4,8 +4,13 @@
   "description": "Website",
   "main": "index.html",
   "scripts": {
-    "start": "browser-sync --config bs-config.js"
+    "start": "browser-sync --config bs-config.js",
+    "build": "sass assets/sass/main.scss assets/css/main.css"
   },
   "author": "josieamily",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "sass": "^1.51.0"
+  }
 }
