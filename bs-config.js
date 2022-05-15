@@ -21,7 +21,7 @@ module.exports = {
         "change"
     ],
     "watch": true,
-    "ignore": [],
+    "ignore": ["assets/sass/**/*","**/*.map"],
     "single": false,
     "watchOptions": {
         "ignoreInitial": true

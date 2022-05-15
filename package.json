@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "browser-sync --config bs-config.js",
-    "build": "sass assets/sass/main.scss assets/css/main.css"
+    "sass": "sass --watch --quiet assets/sass/main.scss assets/css/main.css"
   },
   "author": "josieamily",
   "license": "MIT",
