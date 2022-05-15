@@ -75,6 +75,13 @@
 	@return val($misc, $keys...);
 }
 
+/// Gets an asset value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _assets($keys...) {
+	@return val($assets, $keys...);
+}
+
 /// Gets a palette value.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.

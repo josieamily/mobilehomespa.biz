@@ -15,6 +15,11 @@
 	$font: (
 	);
 
+// Assets.
+	$assets: (
+		spa: url("/assets/icons/web/apple-touch-icon.png")
+	);
+
 // Palette.
 	$palette: (
 		primary:		#f6cbb4, // https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=f6cbb4
@@ -27,14 +32,14 @@
 		border-bg2:		rgba(224,224,224,0.35),
 
 		accent1: (
-			bg:			#4eb980,
+			bg:			#9a0031,
 			fg:			rgba(255,255,255,0.8),
 			fg-light:	rgba(255,255,255,0.5),
 			fg-bold:	#ffffff
 		),
 
 		accent2: (
-			bg:			#544d55,
+			bg:			#eba200,
 			fg:			rgba(255,255,255,0.8),
 			fg-light:	rgba(255,255,255,0.35),
 			fg-bold:	#ffffff

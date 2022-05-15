@@ -112,7 +112,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #4eb980;
+  color: #9a0031;
   text-decoration: none;
 }
 a:hover {
@@ -1648,7 +1648,7 @@ input[type=email]:focus,
 select:focus,
 textarea:focus {
   background: rgba(224, 224, 224, 0.15);
-  border-color: #4eb980;
+  border-color: #9a0031;
 }
 
 input[type=text],
@@ -2011,7 +2011,7 @@ input[type=button],
   -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  background: #544d55;
+  background: #eba200;
   border-radius: 4px;
   border: 0;
   color: #ffffff;
@@ -2031,13 +2031,13 @@ input[type=submit]:hover,
 input[type=reset]:hover,
 input[type=button]:hover,
 .button:hover {
-  background: #6e6570;
+  background: #ffb91f;
 }
 input[type=submit]:active,
 input[type=reset]:active,
 input[type=button]:active,
 .button:active {
-  background: #474148;
+  background: #d29000;
 }
 input[type=submit].alt,
 input[type=reset].alt,
@@ -2045,7 +2045,7 @@ input[type=button].alt,
 .button.alt {
   background: none;
   box-shadow: inset 0 0 0 1px rgba(224, 224, 224, 0.75);
-  color: #544d55;
+  color: #eba200;
 }
 input[type=submit].alt:hover,
 input[type=reset].alt:hover,
@@ -2162,11 +2162,12 @@ input[type=button].small,
 
 /* Header */
 #header {
-  background-attachment: scroll, scroll, fixed;
-  background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-  background-position: bottom center, top left, center center;
-  background-repeat: repeat-x, repeat, no-repeat;
-  background-size: 3200px 460px, auto, cover;
+  background-attachment: scroll, scroll;
+  background-image: url("images/top-3200.svg"), url("images/overlay.png");
+  background-position: bottom center, top left;
+  background-repeat: repeat-x, repeat;
+  background-size: 3200px 460px, auto;
+  background-color: #eba200;
   color: rgba(255, 255, 255, 0.8);
   padding: 10em 0 20em 0;
   position: relative;
@@ -2195,7 +2196,7 @@ input[type=button].small,
 }
 #header a:hover {
   border-bottom-color: transparent;
-  color: #4eb980;
+  color: #9a0031;
 }
 #header strong, #header b {
   color: #ffffff;
@@ -2208,12 +2209,10 @@ input[type=button].small,
 #header input[type=button],
 #header .button {
   background: #ffffff;
-  color: #544d55;
+  color: #eba200;
 }
 #header .logo {
-  background: #4eb980;
   border-radius: 100%;
-  color: #ffffff;
   cursor: default;
   display: inline-block;
   font-size: 2.25em;
@@ -2223,9 +2222,9 @@ input[type=button].small,
   text-align: center;
   width: 2.35em;
 }
-#header .logo.fa-paper-plane-o:before {
-  left: -0.075em;
-  position: relative;
+#header .logo.spa-icon {
+  background-image: url("/assets/icons/web/apple-touch-icon.png");
+  background-size: 2.35em;
 }
 #header h1 {
   font-size: 2.5em;
@@ -2240,7 +2239,7 @@ input[type=button].small,
 /* Footer */
 #footer {
   background-attachment: scroll;
-  background-color: #4eb980;
+  background-color: #9a0031;
   background-image: url("images/bottom-3200.svg");
   background-position: top center;
   background-repeat: repeat-x;
@@ -2284,7 +2283,7 @@ input[type=button].small,
 #footer .button {
   background: #ffffff;
   box-shadow: inset 0 0 0 1px #ffffff;
-  color: #4eb980;
+  color: #9a0031;
 }
 #footer input[type=submit]:hover,
 #footer input[type=reset]:hover,
@@ -2428,9 +2427,9 @@ input[type=button].small,
 
   /* Header */
   #header {
-    background-attachment: scroll, scroll, scroll;
-    background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-    background-size: 1600px 230px, auto, cover;
+    background-attachment: scroll, scroll;
+    background-image: url("images/top-1600.svg"), url("images/overlay.png");
+    background-size: 1600px 230px, auto;
     padding: 6em 0 12em 0;
   }
   #header:before {
@@ -2547,8 +2546,8 @@ input[type=button].small,
 
   /* Header */
   #header {
-    background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-    background-size: 1280px 184px, auto, cover;
+    background-image: url("images/top-1280.svg"), url("images/overlay.png");
+    background-size: 1280px 184px, auto;
     padding: 3em 0 7em 0;
   }
   #header:before {
