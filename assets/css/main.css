@@ -2223,7 +2223,7 @@ input[type=button].small,
   width: 2.35em;
 }
 #header .logo.spa-icon {
-  background-image: url("/assets/icons/web/apple-touch-icon.png");
+  background-image: url("assets/icons/web/apple-touch-icon.png");
   background-size: 2.35em;
 }
 #header h1 {
