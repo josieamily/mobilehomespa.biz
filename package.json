@@ -2,15 +2,19 @@
   "name": "mobilehomespa.biz",
   "version": "1.0.0",
   "description": "Website",
-  "main": "index.html",
+  "main": "public/index.html",
   "scripts": {
-    "start": "browser-sync --config bs-config.js",
-    "sass": "sass --watch --quiet assets/sass/main.scss assets/css/main.css"
+    "build:eleventy": "eleventy",
+    "build:sass": "sass src/sass:src/css",
+    "build": "npm run build:sass && npm run build:eleventy",
+    "start": "npm run watch:eleventy",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "sass --watch src/sass:src/css"
   },
   "author": "josieamily",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.27.9",
+    "@11ty/eleventy": "^1.0.1",
     "sass": "^1.51.0"
   }
 }
