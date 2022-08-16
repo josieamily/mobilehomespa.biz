@@ -8,8 +8,7 @@ module.exports = function(eleventyConfig) {
       dir: {
         input: "src",
         output: "public"
-      },
-      htmlTemplateEngine: false
+      }
     }
   };
   

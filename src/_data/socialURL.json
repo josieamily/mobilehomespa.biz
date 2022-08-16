@@ -1,0 +1,17 @@
+[
+    {
+        "label": "facebook",
+        "icon": "fa-facebook-f",
+        "url": "fb.com"
+    },
+    {
+        "name": "instagram",
+        "icon": "fa-instagram",
+        "url": "instagram.com"
+    },
+    {
+        "name": "whatsapp",
+        "icon": "fa-whatsapp",
+        "url": "https://wa.me/15551234567"
+    }
+]
