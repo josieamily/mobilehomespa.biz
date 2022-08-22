@@ -1,5 +1,6 @@
 ---
 title: "Mimita Spa"
+lang: "en"
 layout: "base.html"
 ---
 
@@ -7,13 +8,13 @@ layout: "base.html"
 <section id="banner">
 	<div class="content">
 		<header>
-			<h2>The future has landed</h2>
-			<p>And there are no hoverboards or flying cars.<br />
-			Just apps. Lots of mother flipping apps.</p>
+			<h2>{{ banner.header }}</h2>
+			<p>{{ banner.p1 }} <br />
+			{{ banner.p2 }}</p>
 		</header>
-		<span class="image"><img src="assets/images/pic01.jpg" alt="" /></span>
+		<span class="image"><img src="assets/images/{{ pictures.banner-circle }}" alt="{{ banner.alt-banner-circle }}" /></span>
 	</div>
-	<a href="#one" class="goto-next scrolly">Next</a>
+	<a href="#one" class="goto-next scrolly">{{ common.next }}</a>
 </section>
 
 <!-- One -->
@@ -45,7 +46,7 @@ layout: "base.html"
 			</div>
 		</div>
 	</div>
-	<a href="#two" class="goto-next scrolly">Next</a>
+	<a href="#two" class="goto-next scrolly">{{ common.next }}</a>
 </section>
 
 <!-- Two -->
@@ -61,7 +62,7 @@ layout: "base.html"
 			<li><a href="#" class="button">Learn More</a></li>
 		</ul>
 	</div>
-	<a href="#three" class="goto-next scrolly">Next</a>
+	<a href="#three" class="goto-next scrolly">{{ common.next }}</a>
 </section>
 
 <!-- Three -->
@@ -77,7 +78,7 @@ layout: "base.html"
 			<li><a href="#" class="button">Learn More</a></li>
 		</ul>
 	</div>
-	<a href="#four" class="goto-next scrolly">Next</a>
+	<a href="#four" class="goto-next scrolly">{{ common.next }}</a>
 </section>
 
 <!-- Four -->

@@ -1,0 +1,11 @@
+{
+    "common": {
+        "next":"Next"
+    },
+    "banner": {
+        "header": "The future has landed",
+        "p1": "And there are no hoverboards or flying cars.",
+        "p2": "Just apps. Lots of mother flipping apps.",
+        "alt-banner-circle": "Mobile Spa logo"
+    }
+}
