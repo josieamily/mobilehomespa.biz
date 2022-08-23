@@ -1,11 +1,44 @@
 {
     "common": {
-        "next":"Next"
+        "next": "Next"
     },
     "banner": {
         "header": "The future has landed",
         "p1": "And there are no hoverboards or flying cars.",
         "p2": "Just apps. Lots of mother flipping apps.",
-        "alt-banner-circle": "Mobile Spa logo"
-    }
+        "picture": "pic01.jpg",
+        "alt": "Mobile Spa logo"
+    },
+    "sections": [
+        {
+            "alignment": "bottom",
+            "header": "Odio faucibus ipsum integer consequat",
+            "description": "Nascetur eu nibh vestibulum amet gravida nascetur praesent",
+            "picture": "pic02.jpg",
+            "alt": "pic02 description",
+            "left-p": "Feugiat accumsan lorem eu ac lorem amet sed accumsan donec. Blandit orci porttitor semper. Arcu phasellus tortor enim mi nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor accumsan consequat adipiscing lorem dolor.",
+            "right-p": "Feugiat accumsan lorem eu ac lorem amet sed accumsan donec. Blandit orci porttitor semper. Arcu phasellus tortor enim mi nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor accumsan consequat adipiscing lorem dolor."
+
+        },
+        {
+            "alignment": "right",
+            "header": "Interdum felis blandit praesent sed augue",
+            "description": "Accumsan integer ultricies aliquam vel massa sapien phasellus",
+            "picture": "pic03.jpg",
+            "alt": "pic03 description",
+            "paragraph": "Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.",
+            "button": "Learn More",
+            "href": "#"
+        },
+        {
+            "alignment": "left",
+            "header": "Interdum felis blandit praesent sed augue",
+            "description": "Accumsan integer ultricies aliquam vel massa sapien phasellus",
+            "picture": "pic04.jpg",
+            "alt": "pic04 description",
+            "button": "Learn More",
+            "paragraph": "Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.",
+            "href": "#"
+        }
+    ]
 }

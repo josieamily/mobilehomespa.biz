@@ -1,0 +1,33 @@
+<section id="{{ forloop.index }}" class="spotlight style{{forloop.index}} {{ section.alignment }}">
+	<span class="image fit main"><img src="assets/images/{{ section.picture }}" alt="{{ section.alt }}" /></span>
+	<div class="content">
+	{% if section.alignment == "bottom" %}
+		<div class="container">
+			<div class="row">
+				<div class="col-4 col-12-medium">
+					<header>
+						<h2>{{ section.header }}</h2>
+						<p>{{ section.description }}</p>
+					</header>
+				</div>
+				<div class="col-4 col-12-medium">
+					<p>{{ section.left-p }}</p>
+				</div>
+				<div class="col-4 col-12-medium">
+					<p>{{ section.right-p }}</p>
+				</div>
+			</div>
+		</div>
+	{% else %}
+		<header>
+			<h2>{{ section.header }}</h2>
+			<p>{{ section.description }}</p>
+		</header>
+		<p>{{ section.paragraph }}</p>
+		<ul class="actions">
+			<li><a href="{{ section.href }}" class="button">{{ section.button }}</a></li>
+		</ul>
+	{% endif %}
+	</div>
+	<a href="#{{ forloop.index | plus: 1 }}" class="goto-next scrolly">{{ common.next }}</a>
+</section>
