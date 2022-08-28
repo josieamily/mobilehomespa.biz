@@ -1,0 +1,14 @@
+<section id="five" class="wrapper style2 special fade">
+	<div class="container">
+		<header>
+			<h2>{{ form.header }}</h2>
+			<p>{{ form.description }}</p>
+		</header>
+		<form method="post" action="{{ form.action }}" class="cta">
+			<div class="row gtr-uniform gtr-50">
+				<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="{{ form.email-placeholder }}" /></div>
+				<div class="col-4 col-12-xsmall"><input type="submit" value="{{ form.button }}" class="fit primary" /></div>
+			</div>
+		</form>
+	</div>
+</section>
