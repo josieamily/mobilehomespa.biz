@@ -39,7 +39,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           npm ci
-          npm build
+          npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
