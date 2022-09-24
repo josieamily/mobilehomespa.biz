@@ -1,0 +1,44 @@
+---
+title: "Mimita Spa"
+lang: "en"
+layout: "base.html"
+---
+
+<!-- Banner -->
+<section id="banner">
+	<div class="content">
+		<header>
+			<h2>{{ banner.header }}</h2>
+			<p>{{ banner.p1 }} <br />
+			{{ banner.p2 }}</p>
+		</header>
+		<span class="image"><img src="assets/{{ banner.picture }}" alt="{{ banner.alt }}" /></span>
+	</div>
+	<a href="#1" class="goto-next scrolly">{{ common.next }}</a>
+</section>
+
+<!-- Sections -->
+{% render "components/section.html" for sections as section %}
+
+<!-- Special -->
+<section id="4" class="wrapper style1 special fade-up">
+	<div class="container">
+		<header class="major">
+			<h2>{{ special.header }}</h2>
+			<p>{{ special.description }}</p>
+		</header>
+		<div class="box alt">
+			<div class="row gtr-uniform">
+				{% render "components/container.html" for containers as container %}
+			</div>
+		</div>
+		<footer class="major">
+			<ul class="actions special">
+				<li><a href="{{ special.url }}" class="button">{{ special.button }}</a></li>
+			</ul>
+		</footer>
+	</div>
+</section>
+
+<!-- Form -->
+{% render "components/form.html" with form as form %}

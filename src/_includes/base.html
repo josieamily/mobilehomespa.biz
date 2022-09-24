@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="{{ lang }}">
+	<head>
+		<title>{{ title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="application-name" content="Amy Spa">
+		<meta name="apple-mobile-web-app-title" content="Amy Spa">
+		<meta name="theme-color" content="#f6cbb4">
+		<meta name="msapplication-navbutton-color" content="#f6cbb4">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="msapplication-starturl" content="/">
+		<link rel="icon" href="{{ 'assets/icons/web/favicon.ico' | url }}" />
+		<link rel="manifest" href="{{ 'manifest.json' | url }}" />
+		<link rel="stylesheet" href="{{ 'assets/css/main.css' | url }}" />
+		<noscript><link rel="stylesheet" href="{{ 'assets/css/noscript.css' | url }}" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+            {% render "components/header.html" %}
+
+            <!-- Content -->
+            {{ content }}
+
+			<!-- Footer -->
+            {% render "components/footer.html" with contact as contact%}
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="{{ 'assets/lib/jquery.min.js' | url }}"></script>
+			<script src="{{ 'assets/lib/jquery.scrolly.min.js' | url }}"></script>
+			<script src="{{ 'assets/lib/jquery.dropotron.min.js' | url }}"></script>
+			<script src="{{ 'assets/lib/jquery.scrollex.min.js' | url }}"></script>
+			<script src="{{ 'assets/lib/browser.min.js' | url }}"></script>
+			<script src="{{ 'assets/lib/breakpoints.min.js' | url }}"></script>
+			<script src="{{ 'js/util.js' | url }}"></script>
+			<script src="{{ 'js/main.js' | url }}"></script>
+
+	</body>
+</html>

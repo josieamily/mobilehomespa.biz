@@ -1,0 +1,23 @@
+{
+    "name": "Name Lastname",
+    "email": "email@gmail.com",
+    "address": "Street 1, 00001 KL",
+    "social": [
+        {
+            "label": "facebook",
+            "icon": "fa-facebook-f",
+            "url": "fb.com"
+        },
+        {
+            "name": "instagram",
+            "icon": "fa-instagram",
+            "url": "instagram.com"
+        },
+        {
+            "name": "whatsapp",
+            "icon": "fa-whatsapp",
+            "url": "https://wa.me/00000000"
+        }
+    ],
+    "copyright": "sedano.dev All rights reserved."
+}

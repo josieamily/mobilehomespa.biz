@@ -1,0 +1,89 @@
+{
+    "common": {
+        "next": "Next"
+    },
+    "banner": {
+        "header": "The future has landed",
+        "p1": "And there are no hoverboards or flying cars.",
+        "p2": "Just apps. Lots of mother flipping apps.",
+        "picture": "icons/web/icon-512.png",
+        "alt": "Mobile Spa logo"
+    },
+    "special": {
+        "header": "Accumsan sed tempus adipiscing blandit",
+        "url": "#",
+        "description": "Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat",
+        "button": "Some text"
+    },
+    "form": {
+        "header": "Magna faucibus lorem diam",
+        "description": "Ante metus praesent faucibus ante integer id accumsan eleifend",
+        "action": "#",
+        "email-placeholder": "Your Email Address",
+        "button": "Get Started"
+    },
+    "sections": [
+        {
+            "alignment": "bottom",
+            "header": "Odio faucibus ipsum integer consequat",
+            "description": "Nascetur eu nibh vestibulum amet gravida nascetur praesent",
+            "picture": "pic02.jpg",
+            "alt": "pic02 description",
+            "left-p": "Feugiat accumsan lorem eu ac lorem amet sed accumsan donec. Blandit orci porttitor semper. Arcu phasellus tortor enim mi nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor accumsan consequat adipiscing lorem dolor.",
+            "right-p": "Feugiat accumsan lorem eu ac lorem amet sed accumsan donec. Blandit orci porttitor semper. Arcu phasellus tortor enim mi nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor accumsan consequat adipiscing lorem dolor."
+
+        },
+        {
+            "alignment": "right",
+            "header": "Interdum felis blandit praesent sed augue",
+            "description": "Accumsan integer ultricies aliquam vel massa sapien phasellus",
+            "picture": "pic03.jpg",
+            "alt": "pic03 description",
+            "paragraph": "Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.",
+            "button": "Learn More",
+            "href": "#"
+        },
+        {
+            "alignment": "left",
+            "header": "Interdum felis blandit praesent sed augue",
+            "description": "Accumsan integer ultricies aliquam vel massa sapien phasellus",
+            "picture": "pic04.jpg",
+            "alt": "pic04 description",
+            "button": "Learn More",
+            "paragraph": "Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.",
+            "href": "#"
+        }
+    ],
+    "containers": [
+        {
+            "icon": "fa-chart-area",
+            "header": "Odio faucibus ipsum",
+            "description": "Nascetur eu nibh vestibulum amet gravida nascetur praesent"
+        },
+        {
+            "icon": "fa-comment",
+            "header": "Odio faucibus ipsum",
+            "description": "Nascetur eu nibh vestibulum amet gravida nascetur praesent"
+        },
+        {
+            "icon": "fa-paper-plane",
+            "header": "Odio faucibus ipsum",
+            "description": "Nascetur eu nibh vestibulum amet gravida nascetur praesent"
+        },
+        {
+            "icon": "fa-file",
+            "header": "Odio faucibus ipsum",
+            "description": "Nascetur eu nibh vestibulum amet gravida nascetur praesent"
+        },
+        {
+            "icon": "fa-lock",
+            "header": "Odio faucibus ipsum",
+            "description": "Nascetur eu nibh vestibulum amet gravida nascetur praesent"
+        },
+        {
+            "icon": "fa-flask",
+            "header": "Odio faucibus ipsum",
+            "description": "Nascetur eu nibh vestibulum amet gravida nascetur praesent"
+        }
+    ]
+}
